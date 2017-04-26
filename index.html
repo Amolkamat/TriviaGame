@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="container">
+		<h1>Pokemon Trivia Game</h1>
+			<p> 
+				Welcome to the Pokemon Trivia Game! Once you click the begin button below, you'll be asked to guess what pokemon is being shown. Your score will be displayed once all the questions have been answered. Good Luck!
+			</p>
+
+		<div id="main">
+			<h3 id="questions" class="card"></h3>
+			<div><span id= "pokes"></span></div>
+			<div id="choices" class="card">
+				<input type="radio" name="choice" value = 0><span id="answer0"></span>
+				<br />
+				<input type="radio" name="choice" value = 1><span id="answer1"></span>
+				<br />
+				<input type="radio" name="choice" value = 2><span id="answer2"></span>
+				<br />
+				<input type="radio" name="choice" value = 3><span id="answer3"></span>
+			</div>
+			<div>
+			<br />
+				<button id="backBtn">Back</button>
+				<button id="nextBtn">Next</button>
+			</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js">
+	
+</script>
+
+</body>
+</html>
